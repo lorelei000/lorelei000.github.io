@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>f8-shop</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="mainn.css">
+
+        <style>
+            body{
+                background-color: #EEEBDD ;
+                border-style: groove;
+                border-width: 3px;
+                border-radius: 15px;
+                width: 70vw;
+                height: 100vh;
+                margin-left: 15vw;
+                margin-top: 30px;
+                border-color: #1B1717;
+            }
+            a{
+                color: #1B1717;
+                font-size: 15px;
+                position:inherit;               
+                font-family: Verdana;
+                text-decoration: none;
+               left: 50%; 
+            }
+            h3{
+                text-align: center;
+            }
+        
+            .header{
+                font-size: 20px;
+                position:static;
+                text-align: center;
+                font-family: Verdana;
+                color: #810000 ;
+            }
+           
+            #contact{
+                color: #CE1212;
+            }
+
+            .form-container{
+                max-width: 720px;
+                padding: 32px;
+                margin: 36px auto 0 auto;
+                background-color: #1B1717;
+                
+            }
+            .form-row{
+                    padding: 8px 0;
+                    /* xuống hàng(cùng hàng inline) */
+                    display: flex;
+                    color: #EEEBDD;
+            }
+            .form-label{
+                    /* chièu dài tối thiẻu của item(căn cho 2 item bằng nhau) */
+                    min-width: 100px;
+                    font-size: 17px;
+                    font-weight:bold ;
+            }
+            .form-input{
+                    /* để item dòng chiếm hết container */
+                    flex: 1;
+                    background-color:#EEEBDD;
+                    
+             }
+            .form-input-content{
+                flex: 1;
+                background-color:#EEEBDD;
+                height: 100px;
+
+            }
+
+            .mota{
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 17px;
+                margin: 40px 170px ;
+                font-weight: bold;
+            }
+
+            .form-submit{
+               width: 80px; 
+               height: 30px;
+               position:absolute;
+               right: 400px;
+               background-color: #CE1212;
+               color: #EEEBDD;
+               font-size: 17px;
+               font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Món Ngon Việt Nam</h1>
+        </div>
+        
+
+        <div class="first-heading">
+          <h3><a href="index.html">Trang chủ</a><br></h3>  
+           <h3><a href="classify.html" >Các loại bánh</a><br></h3> 
+           <h3><a id="contact" href="contact.html" >Liên hệ</a></h3> 
+             <hr width="60%" size="1px" align="center"/>
+        </div>
+
+       
+
+        <div class="form-container">
+            <form action="" class="form">
+                <div class="form-row">
+                    <label class="form-label">Họ tên</label>
+                    <input class="form-input" type="text" name="" id="">
+                </div>
+
+                <div class="form-row"> 
+                    <label class="form-label" for="">Email</label>
+                    <input  class="form-input" type="text" name="" id="">
+                </div>
+
+                <div class="form-row">
+                    <label class="form-label" for="">Nội dung</label>
+                    <input class="form-input-content" type="text" name="" id="">
+                </div>
+
+                <div class="form-row">
+                    <input class="form-submit" type="submit" >
+                </div>
+            </form>
+        </div>
+         <div class="mota">
+            <pre>
+                    Nhà hàng Món Ngon VN
+                    Số 123 ACB … Tp, HCM
+                    Số ĐT: 000123012
+                    Email: monngonvn@gmail.com
+                    Website: http://monngonvn.vn
+            </pre>
+        </div>
+    </body>
+</html>
